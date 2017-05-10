@@ -1,0 +1,8 @@
+I0427 14:18:08.697206 31093 convert_annoset.cpp:122] A total of 5000 images.
+I0427 14:18:08.697532 31093 db_lmdb.cpp:35] Opened lmdb /home/gaopeng/Desktop/data/lmdb/coco_minival_lmdb
+I0427 14:18:18.451546 31093 convert_annoset.cpp:196] Processed 1000 files.
+I0427 14:18:27.479744 31093 convert_annoset.cpp:196] Processed 2000 files.
+I0427 14:18:36.155006 31093 convert_annoset.cpp:196] Processed 3000 files.
+I0427 14:18:44.839983 31093 convert_annoset.cpp:196] Processed 4000 files.
+I0427 14:18:53.409073 31093 convert_annoset.cpp:196] Processed 5000 files.
+/home/gaopeng/Desktop/caffe/build/tools/convert_annoset --anno_type=detection --label_type=json --label_map_file=/home/gaopeng/Desktop/caffe/data/coco/../../data/coco/labelmap_coco.prototxt --check_label=True --min_dim=0 --max_dim=0 --resize_height=0 --resize_width=0 --backend=lmdb --shuffle=False --check_size=False --encode_type=jpg --encoded=True --gray=False /home/gaopeng/Desktop/data/ /home/gaopeng/Desktop/caffe/data/coco/../../data/coco/minival.txt /home/gaopeng/Desktop/data/lmdb/coco_minival_lmdb

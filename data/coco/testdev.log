@@ -1,0 +1,24 @@
+I0427 14:18:54.081768 31119 convert_annoset.cpp:122] A total of 20288 images.
+I0427 14:18:54.082154 31119 db_lmdb.cpp:35] Opened lmdb /home/gaopeng/Desktop/data/lmdb/coco_testdev_lmdb
+I0427 14:19:02.567956 31119 convert_annoset.cpp:196] Processed 1000 files.
+I0427 14:19:09.727505 31119 convert_annoset.cpp:196] Processed 2000 files.
+I0427 14:19:16.813089 31119 convert_annoset.cpp:196] Processed 3000 files.
+I0427 14:19:24.081701 31119 convert_annoset.cpp:196] Processed 4000 files.
+I0427 14:19:31.235061 31119 convert_annoset.cpp:196] Processed 5000 files.
+I0427 14:19:38.286705 31119 convert_annoset.cpp:196] Processed 6000 files.
+I0427 14:19:45.341773 31119 convert_annoset.cpp:196] Processed 7000 files.
+I0427 14:19:52.408625 31119 convert_annoset.cpp:196] Processed 8000 files.
+I0427 14:19:59.499868 31119 convert_annoset.cpp:196] Processed 9000 files.
+I0427 14:20:06.443353 31119 convert_annoset.cpp:196] Processed 10000 files.
+I0427 14:20:13.514582 31119 convert_annoset.cpp:196] Processed 11000 files.
+I0427 14:20:20.537495 31119 convert_annoset.cpp:196] Processed 12000 files.
+I0427 14:20:29.156728 31119 convert_annoset.cpp:196] Processed 13000 files.
+I0427 14:20:36.223955 31119 convert_annoset.cpp:196] Processed 14000 files.
+I0427 14:20:43.326021 31119 convert_annoset.cpp:196] Processed 15000 files.
+I0427 14:20:50.341936 31119 convert_annoset.cpp:196] Processed 16000 files.
+I0427 14:20:57.629658 31119 convert_annoset.cpp:196] Processed 17000 files.
+I0427 14:21:04.718171 31119 convert_annoset.cpp:196] Processed 18000 files.
+I0427 14:21:11.697788 31119 convert_annoset.cpp:196] Processed 19000 files.
+I0427 14:21:18.813391 31119 convert_annoset.cpp:196] Processed 20000 files.
+I0427 14:21:20.860117 31119 convert_annoset.cpp:202] Processed 20288 files.
+/home/gaopeng/Desktop/caffe/build/tools/convert_annoset --anno_type=detection --label_type=json --label_map_file=/home/gaopeng/Desktop/caffe/data/coco/../../data/coco/labelmap_coco.prototxt --check_label=True --min_dim=0 --max_dim=0 --resize_height=0 --resize_width=0 --backend=lmdb --shuffle=False --check_size=False --encode_type=jpg --encoded=True --gray=False /home/gaopeng/Desktop/data/ /home/gaopeng/Desktop/caffe/data/coco/../../data/coco/testdev.txt /home/gaopeng/Desktop/data/lmdb/coco_testdev_lmdb
